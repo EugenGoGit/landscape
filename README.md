@@ -24,6 +24,8 @@ Create .env.local file
     REACT_APP_GITHUB_TOKEN="gjngjng"  
     REACT_APP_GITLAB_TOKEN="jdjdjdd"
 
+The values of the variables will be included in the application, so use the variables REACT_APP_GITHUB_TOKEN, REACT_APP_GITLAB_TOKEN only when running locally for development purposes.
+
 And launch
 
     npm start NODE_ENV=local
